@@ -374,6 +374,7 @@ table.plain {
 
 #site-head .blog-title a {
   color: #fff;
+  text-decoration: none;
 }
 
 #site-head .blog-title a::selection {
