@@ -377,10 +377,10 @@ table.plain {
   text-decoration: none;
 }
 
-#site-head .blog-title a::selection {
-  color: #222;
-  background: #D6EDFF;
-  text-shadow: none;
+#site-head .blog-title a:hover {
+    color: #57A3E8;
+    transition: color ease 0.3s;
+    text-shadow: none;
 }
 
 main.content {
