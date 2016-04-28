@@ -370,7 +370,16 @@ table.plain {
     background: #303538 no-repeat center center;
     background-size: cover;
 	top: 0;
+}
 
+#site-head .blog-title a {
+  color: #fff;
+}
+
+#site-head .blog-title a::selection {
+  color: #222;
+  background: #D6EDFF;
+  text-shadow: none;
 }
 
 main.content {
